@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://s35mqesmplgc"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_kakii"]
+font_size = 80
+
+[node name="HelloWorld" type="Node2D"]
+
+[node name="Background" type="ColorRect" parent="."]
+offset_right = 1155.0
+offset_bottom = 650.0
+color = Color(0.176419, 0.176419, 0.176419, 1)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 360.0
+offset_top = 200.0
+offset_right = 812.0
+offset_bottom = 310.0
+text = "Hello World"
+label_settings = SubResource("LabelSettings_kakii")
+horizontal_alignment = 1
+vertical_alignment = 1
