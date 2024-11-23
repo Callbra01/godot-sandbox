@@ -12,6 +12,7 @@ script = ExtResource("1_6i08p")
 offset_right = 1155.0
 offset_bottom = 650.0
 color = Color(0.176419, 0.176419, 0.176419, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="Label" type="Label" parent="."]
 offset_left = 360.0
@@ -22,8 +23,11 @@ text = "Hello World"
 label_settings = SubResource("LabelSettings_kakii")
 horizontal_alignment = 1
 vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
 
-[node name="TimeLabel" type="Label" parent="."]
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="TimeLabel" type="Label" parent="Node2D"]
 offset_left = 318.0
 offset_top = 362.0
 offset_right = 865.0
@@ -32,3 +36,4 @@ text = "(time elapsed)"
 label_settings = SubResource("LabelSettings_kakii")
 horizontal_alignment = 1
 vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
